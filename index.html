@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+
+    <div class="container-fluid">
+        <p class="text-center">Let us know how we can improve freeCodeCamp</p>
+
+        <form action="#" class="grid container">
+            <label class="text-end"><sup>*</sup> Name:</label>
+            <input class="input-design" type="text" placeholder="Enter your name">
+
+            <label class="text-end"><sup>*</sup> Email:</label>
+            <input class="input-design" type="email" placeholder="Enter your email">
+
+            <label class="text-end"><sup>*</sup> Age:</label>
+            <input class="input-design" type="number" min="0" placeholder="Age">
+
+            <label class="text-end">Which option best describe your current role?</label>
+            <select id="#" name="information" form="canditate" class="selection-design">
+                <option value="">Student</option>
+                <option value="">Teacher</option>
+            </select>
+
+            <label class="text-end"><sup>*</sup> How likely is that you would recommand freeCodeCamp to be a friend?</label>
+            <div>
+                <input type="radio">Definitly
+                <br>
+                <input type="radio">Maybe
+                <br>
+                <input type="radio">Notsure
+            </div>
+
+            <label class="text-end">What do you like most in FCC:</label>
+            <select id="#" name="information" form="canditate" class="selection-design">
+                <option value="">Select an option</option>
+                <option value="">Hello</option>
+            </select>
+            <label class="text-end">Things that should be improved in the future (Check all that apply):</label>
+            <div>
+                <input type="checkbox">Front-end Projects
+                <br>
+                <input type="checkbox">Back-end Projects
+                <br>
+                <input type="checkbox">Data visualization
+            </div>
+
+        </form>
+    </div>
+
+</body>
